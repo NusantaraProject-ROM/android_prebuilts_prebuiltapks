@@ -10,6 +10,8 @@ PRODUCT_PACKAGES += \
     FDroidPrivilegedExtension \
     GmsCore \
     GsfProxy \
+    microg-a5k \
     MozillaNlpBackend \
+    NominatimNlpBackend \
     OpenWeatherMapWeatherProvider
 
