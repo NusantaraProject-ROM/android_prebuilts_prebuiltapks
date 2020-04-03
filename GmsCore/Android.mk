@@ -1,5 +1,3 @@
-ifeq ($(ROM_BUILDTYPE),MICROG)
-
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
@@ -21,5 +19,3 @@ LOCAL_CERTIFICATE := platform
 LOCAL_OVERRIDES_PACKAGES := com.qualcomm.location
 LOCAL_REQUIRED_MODULES := privapp-permissions-com.google.android.gms.xml
 include $(BUILD_PREBUILT)
-
-endif
