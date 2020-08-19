@@ -12,5 +12,6 @@ PRODUCT_PACKAGES += \
     GsfProxy \
     microg-a5k \
     MozillaNlpBackend \
-    NominatimNlpBackend
+    NominatimNlpBackend \
+    Focus
 
